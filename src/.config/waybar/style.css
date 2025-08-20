@@ -1,0 +1,25 @@
+@import "colors-waybar.css";
+
+* {
+    font-family: MartianMonoNerdFont; 
+    margin: 0;
+    padding: 0;
+}
+
+window#waybar {
+    background: @background;
+    -webkit-backdrop-filter: blur(25px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px; 
+}
+
+#custom-home {
+    background-image: url("/home/allocats/.config/waybar/svgs/sun-home.svg");
+    min-width: 20px;
+    padding: 0 12px;
+
+}
+
+#workspaces {
+    border-radius: 4px;
+}

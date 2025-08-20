@@ -1,0 +1,24 @@
+# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  #
+backend = "wal"
+color_space = "lab"
+palette = "dark16"
+threshold = 5 
+
+[templates]
+cava.template = 'colors-cava'
+cava.target = '~/.config/cava/config'
+
+hypr.template = 'colors-hyprland.conf'
+hypr.target = '~/.config/hypr/colors-hyprland.conf'
+
+rofi.template = 'colors-rofi.rasi'
+rofi.target = '~/.config/rofi/colors-rofi.rasi'
+
+waybar.template = 'colors-waybar.css'
+waybar.target = '~/.config/waybar/colors-waybar.css'
+
+kitty.template = 'colors-kitty.conf'
+kitty.target = '~/.config/kitty/colors-kitty.conf'
+
+swaync.template = 'colors-swaync.css'
+swaync.target = '~/.config/swaync/colors-wallust.css'

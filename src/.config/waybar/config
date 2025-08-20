@@ -1,0 +1,19 @@
+{
+  "reload_style_on_change": true,
+  "position": "top",
+  "height": 50,
+
+  "margin-top": 8,
+  "margin-left": 8,
+  "margin-right": 8,
+  
+  "modules-left": ["custom/home", "hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["custom/weather","pulseaudio", "custom/notifications", "custom/power"],
+
+  "custom/home": {
+    "tooltip": true,
+    "tooltip-format": "Home",
+    "format": " {}"
+  }
+}
